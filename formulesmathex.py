@@ -6,9 +6,6 @@ class Complexe:
         self.re = re
         self.im = im
 
-    def __neg__(self):
-        return Complexe(-self.re, -self.im)
-
     def __str__(self):
         if self.re == 0 and self.im == 0:
             return '0'
@@ -37,7 +34,7 @@ class Complexe:
         return Complexe(self.re + z2.re, self.im + z2.im)
 
     def soustraire(self, z2):
-        return self.ajouter(-z2)
+        return self.ajouter(Complexe(-z2.re, -z2.im))
 
     def multiplier(self, z2):
         if isinstance(z2, (float, int)):
