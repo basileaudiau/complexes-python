@@ -1,5 +1,5 @@
->Voici un projet que j'ai fait avec l'objectif de réviser les formules des nombres complexes.
->Je l'ai fait suite a un cours de NSI sur la POO (Programmation Orientée Objet) en Python.
+Voici un projet que j'ai fait avec l'objectif de réviser les formules des **nombres complexes** en **Maths Expertes**.
+Je l'ai fait suite a un cours de **NSI** sur la **POO** (Programmation Orientée Objet) en Python.
 
 Dans le code on a:
 - Une **classe** `Complexe`, elle permet de gérer des affixes
